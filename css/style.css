@@ -13,16 +13,7 @@ body {
   color: #fabe4c;
 }
 .btn-custome {
-  padding: 0.8rem 1.2rem;
-  outline: none;
-  border: none;
-  border-radius: 10px;
-  text-decoration: none;
-  background-color: #a4bc46;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  background-color: #a4bc46 !important;
 }
 .shopping-card {
   width: 20px;
