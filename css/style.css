@@ -63,9 +63,7 @@ body {
   -ms-border-radius: 20px !important;
   -o-border-radius: 20px !important;
 }
-.product-card-footer {
-  background-color: #ffffff !important;
-}
+
 @media (max-width: 500px) {
   .logo-img {
     width: 12em;
