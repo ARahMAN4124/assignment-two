@@ -1,25 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.slider-control {
+body {
+  font-family: "Bebas Neue", cursive;
 }
-.cata-img {
-  width: 150px;
+/* common style */
+.highlight {
+  color: #fabe4c;
 }
-.shoes-card {
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+.btn-custome {
+  padding: 0.8rem 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #a4bc46;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-.shoes-card:hover {
-  box-shadow: 1px 1px 10px #00000054;
-  transform: translateY(-10px);
-  -webkit-transform: translateY(-10px);
-  -moz-transform: translateY(-10px);
-  -ms-transform: translateY(-10px);
-  -o-transform: translateY(-10px);
+.shopping-card {
+  width: 20px;
+}
+
+/* header style */
+
+#home-header {
+  background-color: #fffbf0;
+  padding: 2rem 0;
+}
+.logo-img {
+  width: 18em;
+}
+.hero h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+/* main style */
+
+#main-product {
+  padding: 50px 0;
+}
+.woman-jacket h2,
+.man-jacket h2 {
+  font-size: 3rem;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+}
+.product-img {
+  height: 25rem;
+  padding: 3rem;
+  border-radius: 20px !important;
+  background-color: #e4e4e4d7;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+.product-card-footer {
+  background-color: #ffffff !important;
+}
+@media (max-width: 500px) {
+  .logo-img {
+    width: 12em;
+  }
+  .woman-jacket h2,
+  .man-jacket h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .logo-img {
+    width: 10em;
+  }
 }
