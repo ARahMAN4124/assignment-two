@@ -12,6 +12,11 @@ body {
 .highlight {
   color: #fabe4c;
 }
+.price {
+  font-weight: 700;
+  font-size: 2em;
+  color: #fabe4c;
+}
 .btn-custome {
   background-color: #a4bc46 !important;
 }
@@ -29,7 +34,7 @@ body {
   width: 18em;
 }
 .hero h1 {
-  font-size: 3.8rem;
+  font-size: 3.8em;
   font-weight: 700;
 }
 
@@ -55,9 +60,30 @@ body {
   -o-border-radius: 20px !important;
 }
 
+#subscribe {
+  background: linear-gradient(rgba(140, 175, 0, 0.733), rgba(0, 0, 0, 0.733)),
+    url(../Image/icon/subscribe.png);
+  background-size: cover;
+}
+.form {
+  height: 350px;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 2.1em;
+  }
+}
+@media (max-width: 766px) {
+  .hero h1 {
+    font-size: 3.8em;
+  }
+}
 @media (max-width: 500px) {
   .logo-img {
     width: 12em;
+  }
+  .hero h1 {
+    font-size: 2.5em;
   }
   .woman-jacket h2,
   .man-jacket h2 {
@@ -67,5 +93,8 @@ body {
 @media (max-width: 350px) {
   .logo-img {
     width: 10em;
+  }
+  .hero h1 {
+    font-size: 2em;
   }
 }
