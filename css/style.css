@@ -64,6 +64,8 @@ body {
   background: linear-gradient(rgba(140, 175, 0, 0.733), rgba(0, 0, 0, 0.733)),
     url(../Image/icon/subscribe.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .form {
   height: 350px;
