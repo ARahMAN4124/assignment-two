@@ -25,9 +25,9 @@ body {
 }
 
 /* header style */
-
 #home-header {
   background-color: #fffbf0;
+  height: 100vh;
   padding: 2rem 0;
 }
 .logo-img {
@@ -44,7 +44,8 @@ body {
   padding: 50px 0;
 }
 .woman-jacket h2,
-.man-jacket h2 {
+.man-jacket h2,
+#categories h2 {
   font-size: 3rem;
   font-family: "Bebas Neue", cursive;
   font-weight: 500;
@@ -59,7 +60,13 @@ body {
   -ms-border-radius: 20px !important;
   -o-border-radius: 20px !important;
 }
-
+.categories-height {
+  height: 100px;
+  background-color: #a4bc46;
+}
+.categories-img {
+  width: 80px;
+}
 #subscribe {
   background: linear-gradient(rgba(140, 175, 0, 0.733), rgba(0, 0, 0, 0.733)),
     url(../Image/icon/subscribe.png);
@@ -88,7 +95,8 @@ body {
     font-size: 2.5em;
   }
   .woman-jacket h2,
-  .man-jacket h2 {
+  .man-jacket h2,
+  #categories h2 {
     text-align: center;
   }
 }
